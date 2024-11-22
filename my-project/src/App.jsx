@@ -1,16 +1,21 @@
-import { useState } from "react";
 import "./App.css";
-import data from "./data.js";
-import Products from "./Components/Products.jsx";
-import Navigation from "./Components/Navigation.jsx";
+import { Routes,Route } from "react-router-dom";
+import Home from "./Components/Home.jsx";
+import UserProducts from "./Components/UserProducts.jsx";
 
 function App() {
-
-  const [product,setProduct]= useState(data);
+  
   return (
-    <div  className="page-main w-[100vw] h-full flex flex-col items-center  content-center justify-center ">
-      <Navigation className=""></Navigation>
-      <Products product= {product}></Products>
+    <div className="App">
+      <Routes>
+        <Route path="/" element= {<Home/>}  />
+        <Route
+          path="/products"
+          element={<UserProducts/>}
+        ></Route>
+        <Route path="/login" element={<login/>} />
+        <Route path=" "></Route>
+      </Routes>
     </div>
   );
 }
