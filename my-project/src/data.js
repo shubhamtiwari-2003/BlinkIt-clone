@@ -41,6 +41,34 @@ const data = [
 		price: "14",
         weight: "50",
 	},
+	{
+		id: 7,
+		productName: "Oreo Chocolate Buiscuit",
+		image: "/images/Oreo biscuits.webp",
+		price: "14",
+        weight: "50",
+	},
+    {
+		id: 8,
+		productName: "Maggi Noodles",
+		image: "/images/Maggi-Noodles.jpg",
+		price: "14",
+        weight: "50",
+	},
+	{
+		id: 9,
+		productName: "Oreo Chocolate Buiscuit",
+		image: "/images/Oreo biscuits.webp",
+		price: "14",
+        weight: "50",
+	},
+    {
+		id: 10,
+		productName: "Maggi Noodles",
+		image: "/images/Maggi-Noodles.jpg",
+		price: "14",
+        weight: "50",
+	},
 	
 ];
 

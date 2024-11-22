@@ -8,10 +8,10 @@ function Navigation() {
   function cartHandler() {
     setCart(!cart);
   }
-  
+
   return (
     <div>
-      {cart?(<Cart cart={cartHandler}></Cart>):(<></>)}
+      {cart ? <Cart cart={cartHandler}></Cart> : <></>}
       <div className="">
         <div className="nav-bar flex flex-row justify-between  items-center w-[100vw] h-[100px] overflow-y-hidden bg-white border-2 border-gray-100 ">
           <img

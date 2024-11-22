@@ -1,4 +1,4 @@
-import Button from "../Button";
+import Button from "./Button";
 import "./Card.css";
 
 function Card({id, productName, image, price, weight}) {
